@@ -9,7 +9,7 @@ export default {
   name: 'Snippets',
 }
 </script>
-<style lang="stylus" scoped>
+<style scoped>
   div {
     background-color: red;
   }
