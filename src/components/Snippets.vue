@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Hola y adios</p>
+    <p>Hola y adios. sublime Test</p>
   </div>
 </template>
 
