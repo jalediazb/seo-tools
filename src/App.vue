@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" width="25%">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <img alt="Vue logo" src="./assets/logo.png" width="25%" />
+    <HelloWorld msg="Hello Vue in CodeSandbox!" />
+    <Snippets></Snippets>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import Snippets from "./components/Snippets.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+    Snippets,
+  },
 };
 </script>
 
