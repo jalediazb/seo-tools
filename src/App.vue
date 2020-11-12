@@ -7,18 +7,15 @@
         </div>
       </div>
     </section>
-    <!-- <HelloWorld msg="Hello Vue in CodeSandbox!" /> -->
   </div>
 </template>
 <script>
-//import HelloWorld from "./components/HelloWorld";
 import Snippets from "./components/Snippets.vue";
 import "bulma/css/bulma.css";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld,
     Snippets,
   },
 };
